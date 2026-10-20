@@ -1,0 +1,14 @@
+services:
+  express-api:
+    build:
+      context: ./Express_Minimal_Template
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+
+  fastapi-api:
+    build:
+      context: ./test_fast_api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped

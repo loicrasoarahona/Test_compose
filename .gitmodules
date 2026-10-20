@@ -1,0 +1,6 @@
+[submodule "Express_Minimal_Template"]
+	path = Express_Minimal_Template
+	url = https://github.com/loicrasoarahona/Express_Minimal_Template.git
+[submodule "test_fast_api"]
+	path = test_fast_api
+	url = https://github.com/loicrasoarahona/test_fast_api.git
